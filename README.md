@@ -32,7 +32,7 @@ Azure VNet (10.0.0.0/16)
 
 ## Deployment Steps
 
-1. Create a Resource Group  
+1. Create a Resource Group: rg-secure-vnet-demo
 2. Create a VNet and subnet  
 3. Create an NSG and associate it with the subnet  
 4. Deploy a VM into the subnet  
