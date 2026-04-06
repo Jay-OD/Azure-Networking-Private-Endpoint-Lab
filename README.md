@@ -62,6 +62,12 @@ Each step reinforces secure-by-default design:
 - The Storage Account is reachable only through the Private Endpoint.
 - The NSG ensures controlled access at the subnet boundary.
 
+## Network Security Group (NSG)
+
+The NSG applied to the subnet enforces least‑privilege access and restricts inbound traffic.
+
+<img width="2910" height="1074" alt="NSG Inbound Rules" src="https://github.com/user-attachments/assets/d3d612a0-f84e-4b47-9662-87e5d5c42fe7" />
+
 ## Testing
 
 Testing was performed from the VM to confirm that private connectivity was functioning correctly.
@@ -71,6 +77,20 @@ Validation steps:
 - Uploaded and downloaded files using the Private Endpoint.
 - Confirmed that the Storage Account cannot be reached from the public internet.
 - Ensured that disabling the Private Endpoint breaks connectivity, proving isolation.
+
+## Monitoring
+
+Azure Monitor and VM Insights were used to observe VM performance, including CPU, memory, disk usage, network traffic and availability.
+
+<img width="975" height="1014" alt="CPU" src="https://github.com/user-attachments/assets/8c9ac6c8-8ef4-46a3-b1fb-03e13d421d56" />
+
+<img width="969" height="1020" alt="Memory" src="https://github.com/user-attachments/assets/8aec7f59-c911-4100-b23c-46b958a6bc4d" />
+
+<img width="987" height="750" alt="Disk Used" src="https://github.com/user-attachments/assets/8808b5b5-2e22-4c66-812f-b399dbe19fb8" />
+
+<img width="963" height="990" alt="Network Trafifc" src="https://github.com/user-attachments/assets/7e9a59af-45b1-4485-b7c9-37d25b4d6661" />
+
+<img width="966" height="1008" alt="Availabilty" src="https://github.com/user-attachments/assets/6cbb0f6f-dd08-48d0-b4ad-b6f253f486b3" />
 
 ## What This Demonstrates
 
