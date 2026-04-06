@@ -82,15 +82,15 @@ Validation steps:
 
 Azure Monitor and VM Insights were used to observe VM performance, including CPU, memory, disk usage, network traffic and availability.
 
-<img width="975" height="1014" alt="CPU" src="https://github.com/user-attachments/assets/8c9ac6c8-8ef4-46a3-b1fb-03e13d421d56" />
+<img width="400" height="600" alt="CPU" src="https://github.com/user-attachments/assets/8c9ac6c8-8ef4-46a3-b1fb-03e13d421d56" />
 
-<img width="969" height="1020" alt="Memory" src="https://github.com/user-attachments/assets/8aec7f59-c911-4100-b23c-46b958a6bc4d" />
+<img width="400" height="600" alt="Memory" src="https://github.com/user-attachments/assets/8aec7f59-c911-4100-b23c-46b958a6bc4d" />
 
-<img width="987" height="750" alt="Disk Used" src="https://github.com/user-attachments/assets/8808b5b5-2e22-4c66-812f-b399dbe19fb8" />
+<img width="400" height="600" alt="Availabilty" src="https://github.com/user-attachments/assets/6cbb0f6f-dd08-48d0-b4ad-b6f253f486b3" />
 
-<img width="963" height="990" alt="Network Trafifc" src="https://github.com/user-attachments/assets/7e9a59af-45b1-4485-b7c9-37d25b4d6661" />
+<img width="400" height="600" alt="Network Trafifc" src="https://github.com/user-attachments/assets/7e9a59af-45b1-4485-b7c9-37d25b4d6661" />
 
-<img width="966" height="1008" alt="Availabilty" src="https://github.com/user-attachments/assets/6cbb0f6f-dd08-48d0-b4ad-b6f253f486b3" />
+<img width="400" height="600" alt="Disk Used" src="https://github.com/user-attachments/assets/8808b5b5-2e22-4c66-812f-b399dbe19fb8" />
 
 ## What This Demonstrates
 
